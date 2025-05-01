@@ -1,10 +1,10 @@
-module github.com/andrewbaxter/terraform-provider-localrun/tools
+module github.com/zakhar-gulchak/terraform-provider-localrun/tools
 
 go 1.21
 
 require (
 	github.com/Khan/genqlient v0.6.0
-	github.com/andrewbaxter/terraform-provider-fly v0.1.1
+	github.com/zakhar-gulchak/terraform-provider-fly v0.1.1
 	github.com/hashicorp/terraform-plugin-framework v1.4.2
 	github.com/hashicorp/terraform-plugin-framework-validators v0.12.0
 	github.com/hashicorp/terraform-plugin-log v0.9.0

@@ -6,7 +6,7 @@ I'm not actively using Fly at the moment - I'll try to fix things if I have time
 
 ## Terraform Registry - andrewbaxter/fly
 
-Terraform resources are documented on the Terraform Registry, published to [andrewbaxter/fly](https://registry.terraform.io/providers/andrewbaxter/fly/latest/docs).
+Terraform resources are documented on the Terraform Registry, published to [andrewbaxter/fly](https://registry.terraform.io/providers/zakhar-gulchak/fly/latest/docs).
 
 ## Contributions
 

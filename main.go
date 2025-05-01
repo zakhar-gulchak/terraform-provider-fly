@@ -5,8 +5,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/andrewbaxter/terraform-provider-fly/provider"
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
+	"github.com/zakhar-gulchak/terraform-provider-fly/provider"
 )
 
 // Run "go generate" to format example terraform files and generate the docs for the registry/website

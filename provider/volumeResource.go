@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/andrewbaxter/terraform-provider-fly/machineapi"
-	"github.com/andrewbaxter/terraform-provider-fly/providerstate"
+	"github.com/zakhar-gulchak/terraform-provider-fly/machineapi"
+	"github.com/zakhar-gulchak/terraform-provider-fly/providerstate"
 
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/resource"

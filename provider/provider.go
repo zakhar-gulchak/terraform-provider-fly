@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/Khan/genqlient/graphql"
-	"github.com/andrewbaxter/terraform-provider-fly/providerstate"
-	"github.com/andrewbaxter/terraform-provider-fly/utils"
+	"github.com/zakhar-gulchak/terraform-provider-fly/providerstate"
+	"github.com/zakhar-gulchak/terraform-provider-fly/utils"
 
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/provider"

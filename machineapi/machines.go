@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/andrewbaxter/terraform-provider-fly/providerstate"
-	"github.com/andrewbaxter/terraform-provider-fly/utils"
 	"github.com/hashicorp/go-hclog"
 	hreq "github.com/imroc/req/v3"
 	"github.com/superfly/flyctl/api"
+	"github.com/zakhar-gulchak/terraform-provider-fly/providerstate"
+	"github.com/zakhar-gulchak/terraform-provider-fly/utils"
 )
 
 var NonceHeader = "fly-machine-lease-nonce"

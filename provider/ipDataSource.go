@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/andrewbaxter/terraform-provider-fly/graphql"
-	"github.com/andrewbaxter/terraform-provider-fly/providerstate"
-	"github.com/andrewbaxter/terraform-provider-fly/utils"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
+	"github.com/zakhar-gulchak/terraform-provider-fly/graphql"
+	"github.com/zakhar-gulchak/terraform-provider-fly/providerstate"
+	"github.com/zakhar-gulchak/terraform-provider-fly/utils"
 )
 
 // Ensure provider defined types fully satisfy framework interfaces

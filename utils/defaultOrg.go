@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	graphql2 "github.com/Khan/genqlient/graphql"
-	"github.com/andrewbaxter/terraform-provider-fly/graphql"
+	"github.com/zakhar-gulchak/terraform-provider-fly/graphql"
 )
 
 func GetDefaultOrg(ctx context.Context, client graphql2.Client) (*graphql.OrgsQueryOrganizationsOrganizationConnectionNodesOrganization, error) {

@@ -5,9 +5,6 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/andrewbaxter/terraform-provider-fly/graphql"
-	"github.com/andrewbaxter/terraform-provider-fly/providerstate"
-	"github.com/andrewbaxter/terraform-provider-fly/utils"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
@@ -17,6 +14,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/stringplanmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 	"github.com/hashicorp/terraform-plugin-framework/types"
+	"github.com/zakhar-gulchak/terraform-provider-fly/graphql"
+	"github.com/zakhar-gulchak/terraform-provider-fly/providerstate"
+	"github.com/zakhar-gulchak/terraform-provider-fly/utils"
 )
 
 var _ resource.Resource = &flyIpResource{}

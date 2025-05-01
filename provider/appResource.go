@@ -4,9 +4,6 @@ import (
 	"context"
 	"time"
 
-	"github.com/andrewbaxter/terraform-provider-fly/graphql"
-	"github.com/andrewbaxter/terraform-provider-fly/providerstate"
-	"github.com/andrewbaxter/terraform-provider-fly/utils"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"
@@ -14,6 +11,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/stringplanmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/types"
+	"github.com/zakhar-gulchak/terraform-provider-fly/graphql"
+	"github.com/zakhar-gulchak/terraform-provider-fly/providerstate"
+	"github.com/zakhar-gulchak/terraform-provider-fly/utils"
 )
 
 var _ resource.Resource = &flyAppResource{}

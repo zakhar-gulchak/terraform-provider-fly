@@ -4,12 +4,12 @@ import (
 	"context"
 	"errors"
 
-	"github.com/andrewbaxter/terraform-provider-fly/graphql"
-	"github.com/andrewbaxter/terraform-provider-fly/providerstate"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/vektah/gqlparser/v2/gqlerror"
+	"github.com/zakhar-gulchak/terraform-provider-fly/graphql"
+	"github.com/zakhar-gulchak/terraform-provider-fly/providerstate"
 )
 
 // Ensure provider defined types fully satisfy framework interfaces
